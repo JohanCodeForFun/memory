@@ -50,9 +50,18 @@ const cardGenerator = () => {
         section.appendChild(card);
         card.appendChild(face);
         card.appendChild(back);
+
+        card.addEventListener('click', (e) => {
+            card.classList.toggle('toggleCard');
+            checkCards(e);
+        });
     });
-
-
 };
+//Check Cards
+const checkCards = (e) => {
+    const clickedCard = e.target;
+    console.log(clickedCard);
+    // at 30:00 minutes in.
+}
 
 cardGenerator();

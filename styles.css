@@ -1,47 +1,58 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+h1 {
+    font-style: italic;
+}
+
+body {
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: #F8F0E3
+
+
 }
 
-.gameplan {
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 8rem);
+    grid-template-rows: repeat(4, 8rem);
+    grid-gap: 0.1rem 1.75rem;
+    perspective: 800px;
 }
 
-.card-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-button {
-    padding: 5px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-img {
-    width: 320px;
-    border-radius: 8px;
-    transition: all 0.5s;
+.card {
+    position: relative;
     transform-style: preserve-3d;
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* box-shadow: rgba(0,0,0,2) 0px 5px 15px; */
+}
+.face,
+.back {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    border-radius: 10px;
+    pointer-events: none;
 }
 
-
-
-/* 
-
-#############
-make mobile friendly 
-
-@media screen {
+.back {
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
     
-} */
+    
+
+
+    
+    
+    backface-visibility: hidden;
+}
+
+.toggleCard {
+    transform: rotateY(180deg);
+}
