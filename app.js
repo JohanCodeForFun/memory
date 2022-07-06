@@ -8,6 +8,38 @@ playerLivesCount.textContent = playerLives;
 
 // generate the data
 
-const getData = () => [{}]
+const getData = () => [
+    { imgSrc: ".images/IMG_2392.jpeg", name: "cafe" },
+    { imgSrc: ".images/IMG_4070.jpeg", name: "swings" },
+    { imgSrc: ".images/IMG_5836.jpeg", name: "sofa" },
+    { imgSrc: ".images/IMG_5855.jpeg", name: "hill" },
+    { imgSrc: ".images/IMG_6141.jpeg", name: "focus" },
+    { imgSrc: ".images/IMG_8070.jpeg", name: "yeah" },
+    { imgSrc: ".images/IMG_8352.jpeg", name: "adventure" },
+    { imgSrc: ".images/IMG_8569.jpeg", name: "happy" },
+    { imgSrc: ".images/cardback.jpeg", name: "yoga" },
+    { imgSrc: ".images/IMG_2392.jpeg", name: "cafe" },
+    { imgSrc: ".images/IMG_4070.jpeg", name: "swings" },
+    { imgSrc: ".images/IMG_5836.jpeg", name: "sofa" },
+    { imgSrc: ".images/IMG_5855.jpeg", name: "hill" },
+    { imgSrc: ".images/IMG_6141.jpeg", name: "focus" },
+    { imgSrc: ".images/IMG_8070.jpeg", name: "yeah" },
+    { imgSrc: ".images/IMG_8352.jpeg", name: "adventure" },
+    { imgSrc: ".images/IMG_8569.jpeg", name: "happy" },
+    { imgSrc: ".images/cardback.jpeg", name: "yoga" }
+];
 
-const data = getData();
+const randomize = () => {
+    const cardData = getData();
+    cardData.sort(() => Math.random() - 0.5);
+    return cardData;
+}
+
+//Card generator function
+const cardGenerator = () => {
+    const cardData = randomize();
+    // Generate the HTML 
+
+}
+
+cardGenerator();
