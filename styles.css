@@ -11,33 +11,54 @@ h1 {
 }
 
 body {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #F8F0E3
-
-
 }
-/* @media (min-width: 320px) {
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
     section {
         display: grid;
-        grid-template-columns: repeat(2, 8rem);
-        grid-template-rows: repeat(2, 8rem);
+        grid-template-columns: repeat(4, 4rem);
+        grid-template-rows: repeat(4, 4rem);
         grid-gap: 0.1rem 1.75rem;
         perspective: 800px;
     }
-} */
-/* @media (min-width: 600px) { */
+}
+@media (min-width: 600px) {
+    h1 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
     section {
         display: grid;
-        grid-template-columns: repeat(4, 8rem);
-        grid-template-rows: repeat(4, 8rem);
+        grid-template-columns: repeat(4, 5rem);
+        grid-template-rows: repeat(4, 5rem);
         grid-gap: 0.1rem 1.75rem;
         perspective: 800px;
     }
-/* } */
+}
+@media (min-width: 700px) {
+    section {
+        display: grid;
+        grid-template-columns: repeat(4, 10rem);
+        grid-template-rows: repeat(4, 10rem);
+        grid-gap: 0.1rem 1.75rem;
+        perspective: 800px;
+    }
+}   
 
 
 
@@ -57,16 +78,25 @@ body {
     box-shadow: rgba(0,0,0,2) 0px 6px 12px;
 }
 
-.back {
-    background-color: #FBDA61;
+.back
+{
+    background-color: -webkit-linear-gradient(#FBDA61);
     background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
-    
-    
+}
 
-
-    
-    
-    backface-visibility: hidden;
+button {
+    padding: 2px 6px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    line-height: 1;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .toggleCard {
@@ -74,4 +104,13 @@ body {
 }
 .face {
     transform: rotateY(-180deg);
+}
+
+.face, .back {
+    /* Hack to stop flickering
+    -webkit-perspective: 0; */
+    -webkit-backface-visibility: hidden;
+    /* -webkit-transform: translate3d(0,0,0); */
+    visibility:visible;
+    backface-visibility: hidden;
 }
