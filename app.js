@@ -118,4 +118,22 @@ cardGenerator();
 //   - Toggle gallery/game plan
 //   - create a slideshow
 //   - use minitarues at bottom?
-//    
+//   
+
+let toggleBtn = document.querySelector('#toggleBtn');
+let memory = document.querySelector('.memory');
+
+toggleBtn.addEventListener('click', () => {
+    if(memory.style.display === 'none') {
+        memory.style.display = 'block';
+    } else {
+        memory.style.display = 'none';
+    }
+
+    // ädra vad knappen visar
+    if (toggleBtn.innerText === "Visa Galleri") {
+        toggleBtn.innerText = "Visa Memory";
+    } else {
+        toggleBtn.innerText = "Visa Galleri";
+    }
+});
