@@ -22,10 +22,11 @@ header {
     flex: 1;
     justify-content: space-between;
     gap: 10px;
+    margin-top: 12px;
 }
 
 img {
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 @media (min-width: 320px) {
@@ -48,25 +49,25 @@ img {
     }
     section {
         display: grid;
-        grid-template-columns: repeat(4, 5rem);
-        grid-template-rows: repeat(4, 5rem);
+        grid-template-columns: repeat(4, 4.7rem);
+        grid-template-rows: repeat(4, 4.7rem);
         grid-gap: 0.1rem 1.75rem;
         perspective: 800px;
     }
 }
-/* @media (min-width: 700px) {
+@media (min-width: 700px) {
     h1 {
         font-size: 18px;
         padding-bottom: 6px;
     }
     section {
         display: grid;
-        grid-template-columns: repeat(4, 10rem);
-        grid-template-rows: repeat(4, 10rem);
+        grid-template-columns: repeat(4, 5rem);
+        grid-template-rows: repeat(4, 5rem);
         grid-gap: 0.1rem 1.75rem;
         perspective: 800px;
     }
-}   */
+}  
 @media (min-width: 924px) {
     h1, h2 {
         font-size: 18px;
