@@ -30,6 +30,14 @@ img {
     border-radius: 12px;
 }
 
+
+/* On first-load */
+section { display: ''; }
+div { display: 'none'; }
+h2 { display: ''; }
+
+
+
 @media (min-width: 320px) {
     h1, h2 {
         font-size: 18px;

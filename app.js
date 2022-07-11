@@ -143,6 +143,12 @@ toggleBtn.addEventListener('click', () => {
     }
 });
 
+function onLoadStyle() {
+    section.style.display = 'none';
+    div.style.display = '';
+    h2.style.display = 'none';
+}
+
 function myFunction(imgs) {
     let expandImg = document.getElementById('expandedImg');
     let imgText = document.getElementById('imgtext');
