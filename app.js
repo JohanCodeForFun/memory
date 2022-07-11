@@ -1,5 +1,6 @@
 // Grab a couple of things
 const section = document.querySelector('section');
+const div = document.querySelector('div');
 const playerLivesCount = document.querySelector('span');
 let playerLives = 12;
 
@@ -125,8 +126,10 @@ let toggleBtn = document.querySelector('#toggleBtn');
 toggleBtn.addEventListener('click', () => {
     if(section.style.display === 'none') {
         section.style.display = '';
+        div.style.display = 'none';
     } else {
         section.style.display = 'none';
+        div.style.display = '';
     }
 
     // ädra vad knappen visar
