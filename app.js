@@ -142,3 +142,23 @@ toggleBtn.addEventListener('click', () => {
         toggleBtn.innerText = "Visa Bilder";
     }
 });
+
+function myFunction(imgs) {
+    let expandImg = document.getElementById('expandedImg');
+    let imgText = document.getElementById('imgtext');
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = 'block';
+}
+
+
+// Ljud
+let toggleSound = document.querySelector('#toggleSound')
+
+toggleSound.addEventListener('click', () => {
+    if (toggleSound.innerText === 'Ljud AV') {
+        toggleSound.innerText = 'Ljud PÅ';
+    } else {
+        toggleSound.innerText = 'Ljud AV'
+    }
+});
