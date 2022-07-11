@@ -27,6 +27,7 @@ header {
 
 img {
     margin-top: 12px;
+    border-radius: 12px;
 }
 
 @media (min-width: 320px) {
@@ -149,13 +150,14 @@ button {
 }
 .cursor {
     cursor: pointer;
+    border-radius: 0;
 }
 
 .prev, 
 .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -188,6 +190,7 @@ button {
     text-align: center;
     padding: 2px 16px;
     color: white;
+    text-shadow: 1px 2px 2px black;
 }
 
 .row:after {
