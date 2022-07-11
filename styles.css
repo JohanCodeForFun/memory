@@ -140,6 +140,7 @@ button {
 /* Style for gallery */
 .container {
     position: absolute;
+    top: 50px;
 }
 
 .mySlides {
