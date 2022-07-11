@@ -121,13 +121,12 @@ cardGenerator();
 //   
 
 let toggleBtn = document.querySelector('#toggleBtn');
-let memory = document.querySelector('.memory');
 
 toggleBtn.addEventListener('click', () => {
-    if(memory.style.display === 'none') {
-        memory.style.display = 'block';
+    if(section.style.display === 'none') {
+        section.style.display = '';
     } else {
-        memory.style.display = 'none';
+        section.style.display = 'none';
     }
 
     // ädra vad knappen visar

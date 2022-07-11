@@ -24,6 +24,10 @@ header {
     gap: 10px;
 }
 
+section {
+    display: inline;
+}
+
 @media (min-width: 320px) {
     h1 {
         font-size: 18px;
