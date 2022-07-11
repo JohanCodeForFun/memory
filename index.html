@@ -20,38 +20,102 @@
 
     <h2>Försök kvar: <span class="playerLivesCount"></span></h2>
     <section class="memory"></section>
-    <div class="row">
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-        <div class="column">
-            <img src="images/IMG_8569.jpeg" alt="" onclick="myFunction(this);">
-        </div>
-    </div>
-
     <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width: 100%;">
+        <div class="mySlides">
+            <div class="numbertext">1 / 8</div>
+            <img src="images/IMG_8070.jpeg" style="width: 100%" alt="">
+        </div>
 
-        <div id="imgtext"></div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 8</div>
+            <img src="images/IMG_4070.jpeg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 8</div>
+            <img src="images/IMG_5836.jpeg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 8</div>
+            <img src="images/IMG_6141.jpeg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 8</div>
+            <img src="images/IMG_2392.jpeg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 8</div>
+            <img src="images/IMG_8352.jpeg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">7 / 8</div>
+            <img src="images/IMG_8569.jpeg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">8 / 8</div>
+            <img src="images/IMG_2392.jpeg" style="width: 100%" alt="">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="prev" onclick="plusSlides(1)">&#10095</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_8070_small.jpeg" style="width: 100%" onclick="currentSlide(1)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_4070_small.jpeg" style="width: 100%" onclick="currentSlide(2)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_5836_small.jpeg" style="width: 100%" onclick="currentSlide(3)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_5855_small.jpeg" style="width: 100%" onclick="currentSlide(4)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_6141_small.jpeg" style="width: 100%" onclick="currentSlide(5)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_2392_small.jpeg" style="width: 100%" onclick="currentSlide(6)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_8352_small.jpeg" style="width: 100%" onclick="currentSlide(7)" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/IMG_8569_small.jpeg" style="width: 100%" onclick="currentSlide(8)" alt="">
+            </div>
+        </div>
+
     </div>
 
     <script src="app.js" defer></script>
