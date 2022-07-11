@@ -114,6 +114,8 @@ const restart = (text) => {
 
 cardGenerator();
 
-// Remember to check how it works on mobile
-// If needed, modify grid to 2 rows on mobile
-// create a zoom button for 2 column big images
+// Gallery function
+//   - Toggle gallery/game plan
+//   - create a slideshow
+//   - use minitarues at bottom?
+//    

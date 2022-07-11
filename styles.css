@@ -50,7 +50,11 @@ header {
         perspective: 800px;
     }
 }
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
+    h1 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
     section {
         display: grid;
         grid-template-columns: repeat(4, 10rem);
@@ -58,7 +62,20 @@ header {
         grid-gap: 0.1rem 1.75rem;
         perspective: 800px;
     }
-}   
+}   */
+@media (min-width: 924px) {
+    h1 {
+        font-size: 18px;
+        padding-bottom: 6px;
+    }
+    section {
+        display: grid;
+        grid-template-columns: repeat(4, 10rem);
+        grid-template-rows: repeat(4, 10rem);
+        grid-gap: 0.1rem 1.75rem;
+        perspective: 800px;
+    }
+}  
 
 
 
