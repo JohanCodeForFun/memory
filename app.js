@@ -122,20 +122,23 @@ cardGenerator();
 //   
 
 let toggleBtn = document.querySelector('#toggleBtn');
+let h2 = document.querySelector('h2');
 
 toggleBtn.addEventListener('click', () => {
     if(section.style.display === 'none') {
         section.style.display = '';
         div.style.display = 'none';
+        h2.style.display = '';
     } else {
         section.style.display = 'none';
         div.style.display = '';
+        h2.style.display = 'none';
     }
 
     // ädra vad knappen visar
-    if (toggleBtn.innerText === "Visa Galleri") {
-        toggleBtn.innerText = "Visa Memory";
+    if (toggleBtn.innerText === "Visa Bilder") {
+        toggleBtn.innerText = "Spela Memory";
     } else {
-        toggleBtn.innerText = "Visa Galleri";
+        toggleBtn.innerText = "Visa Bilder";
     }
 });

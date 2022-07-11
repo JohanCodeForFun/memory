@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1 {
+h1, h2 {
     font-style: italic;
     font-family: 'Merriweather', serif;
     padding-bottom: 10px;
@@ -24,12 +24,12 @@ header {
     gap: 10px;
 }
 
-section {
-    display: inline;
+img {
+    margin-top: 20px;
 }
 
 @media (min-width: 320px) {
-    h1 {
+    h1, h2 {
         font-size: 18px;
         padding-bottom: 6px;
     }
@@ -42,7 +42,7 @@ section {
     }
 }
 @media (min-width: 600px) {
-    h1 {
+    h1, h2 {
         font-size: 18px;
         padding-bottom: 6px;
     }
@@ -68,7 +68,7 @@ section {
     }
 }   */
 @media (min-width: 924px) {
-    h1 {
+    h1, h2 {
         font-size: 18px;
         padding-bottom: 6px;
     }
