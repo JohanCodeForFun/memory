@@ -2,7 +2,7 @@
 const section = document.querySelector('section');
 const div = document.querySelector('div');
 const playerLivesCount = document.querySelector('span');
-let playerLives = 12;
+let playerLives = 16;
 
 // link text
 playerLivesCount.textContent = playerLives;
@@ -108,7 +108,7 @@ const restart = (text) => {
         }, 1000);
 
     });
-    playerLives = 10;
+    playerLives = 16;
     playerLivesCount.textContent = playerLives;
     setTimeout(() => window.alert(text), 100);
 };
@@ -144,9 +144,9 @@ toggleBtn.addEventListener('click', () => {
 });
 
 function onLoadStyle() {
-    section.style.display = 'none';
-    div.style.display = '';
-    h2.style.display = 'none';
+    section.style.display = '';
+    div.style.display = 'none';
+    h2.style.display = '';
 }
 
 function myFunction(imgs) {
