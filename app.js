@@ -72,6 +72,7 @@ const checkCards = (e) => {
             flippedCards.forEach((card) => {
                 card.classList.remove("flipped");
                 card.style.pointerEvents = "none";
+                console.log('match');
             })
         } else {
             flippedCards.forEach((card) => {
@@ -159,15 +160,15 @@ function myFunction(imgs) {
 
 
 // Ljud
-let toggleSound = document.querySelector('#toggleSound')
+// let toggleSound = document.querySelector('#toggleSound')
 
-toggleSound.addEventListener('click', () => {
-    if (toggleSound.innerText === 'Ljud AV') {
-        toggleSound.innerText = 'Ljud PÅ';
-    } else {
-        toggleSound.innerText = 'Ljud AV'
-    }
-});
+// toggleSound.addEventListener('click', () => {
+//     if (toggleSound.innerText === 'Ljud AV') {
+//         toggleSound.innerText = 'Ljud PÅ';
+//     } else {
+//         toggleSound.innerText = 'Ljud AV'
+//     }
+// });
 
 let slideIndex = 1;
 showSlides(slideIndex);

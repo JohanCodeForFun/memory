@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #F8F0E3
+    background-color: #F8F0E3;
 }
 header {
     display: flex;
@@ -29,14 +29,6 @@ img {
     margin-top: 12px;
     border-radius: 12px;
 }
-
-
-/* On first-load */
-section { display: ''; }
-div { display: 'none'; }
-h2 { display: ''; }
-
-
 
 @media (min-width: 320px) {
     h1, h2 {
@@ -188,10 +180,11 @@ button {
 
 .numbertext {
     color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
+    font-size: 16px;
+    padding: 16px 12px;
     position: absolute;
     top: 0;
+    text-shadow: 1px 2px 3px black;
 }
 
 .caption-container {
