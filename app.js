@@ -9,22 +9,22 @@ playerLivesCount.textContent = playerLives;
 
 // generate the data
 const getData = () => [
-    { imgSrc: "./images/IMG_2392.jpeg", name: "cafe" },
-    { imgSrc: "./images/IMG_4070.jpeg", name: "swings" },
-    { imgSrc: "./images/IMG_5836.jpeg", name: "sofa" },
-    { imgSrc: "./images/IMG_5855.jpeg", name: "hill" },
-    { imgSrc: "./images/IMG_6141.jpeg", name: "focus" },
-    { imgSrc: "./images/IMG_8070.jpeg", name: "yeah" },
-    { imgSrc: "./images/IMG_8352.jpeg", name: "adventure" },
-    { imgSrc: "./images/IMG_8569.jpeg", name: "happy" },
-    { imgSrc: "./images/IMG_2392.jpeg", name: "cafe" },
-    { imgSrc: "./images/IMG_4070.jpeg", name: "swings" },
-    { imgSrc: "./images/IMG_5836.jpeg", name: "sofa" },
-    { imgSrc: "./images/IMG_5855.jpeg", name: "hill" },
-    { imgSrc: "./images/IMG_6141.jpeg", name: "focus" },
-    { imgSrc: "./images/IMG_8070.jpeg", name: "yeah" },
-    { imgSrc: "./images/IMG_8352.jpeg", name: "adventure" },
-    { imgSrc: "./images/IMG_8569.jpeg", name: "happy" }
+    { imgSrc: "./images/dario-bronnimann-Pk5Y0gkICDw-unsplash.png", name: "Dario Brönnimann1" },
+    { imgSrc: "./images/dario-bronnimann-8fHbjlmMSDY-unsplash.png", name: "Dario Brönnimann2" },
+    { imgSrc: "./images/pete-alexopoulos-DuhfNThAz2A-unsplash.png", name: "Pete Alexopoulos" },
+    { imgSrc: "./images/maxime-gilbert-WZ31bFoqPHg-unsplash.png", name: "Maxime Gilbert" },
+    { imgSrc: "./images/photo-is-beauty-to-u-m2y-eByFnvc-unsplash.png", name: "photo is beauty" },
+    { imgSrc: "./images/philipp--hvC60Fen7I-unsplash.png", name: "Philipp" },
+    { imgSrc: "./images/ryan-ancill-KNnj1-uUwow-unsplash.png", name: "Ryan Ancill" },
+    { imgSrc: "./images/craig-manners-8qOh0vBS5B8-unsplash.png", name: "Craig Manners" },
+    { imgSrc: "./images/dario-bronnimann-Pk5Y0gkICDw-unsplash.png", name: "Dario Brönnimann1" },
+    { imgSrc: "./images/dario-bronnimann-8fHbjlmMSDY-unsplash.png", name: "Dario Brönnimann2" },
+    { imgSrc: "./images/pete-alexopoulos-DuhfNThAz2A-unsplash-2.png", name: "Pete Alexopoulos" },
+    { imgSrc: "./images/maxime-gilbert-WZ31bFoqPHg-unsplash.png", name: "Maxime Gilbert" },
+    { imgSrc: "./images/photo-is-beauty-to-u-m2y-eByFnvc-unsplash.png", name: "photo is beauty" },
+    { imgSrc: "./images/philipp--hvC60Fen7I-unsplash.png", name: "Philipp" },
+    { imgSrc: "./images/ryan-ancill-KNnj1-uUwow-unsplash.png", name: "Ryan Ancill" },
+    { imgSrc: "./images/craig-manners-8qOh0vBS5B8-unsplash.png", name: "Craig Manners" }
 ];
 
 const randomize = () => {
