@@ -9,16 +9,16 @@ playerLivesCount.textContent = playerLives;
 
 // generate the data
 const getData = () => [
-    { imgSrc: "./images/dario-bronnimann-Pk5Y0gkICDw-unsplash.png", name: "Dario Brönnimann" },
-    { imgSrc: "./images/dario-bronnimann-8fHbjlmMSDY-unsplash.png", name: "Dario Brönnimann" },
-    { imgSrc: "./images/pete-alexopoulos-DuhfNThAz2A-unsplash-2.png", name: "Pete Alexopoulos" },
+    { imgSrc: "./images/dario-bronnimann-Pk5Y0gkICDw-unsplash.png", name: "Dario Brönnimann1" },
+    { imgSrc: "./images/dario-bronnimann-8fHbjlmMSDY-unsplash.png", name: "Dario Brönnimann2" },
+    { imgSrc: "./images/pete-alexopoulos-DuhfNThAz2A-unsplash.png", name: "Pete Alexopoulos" },
     { imgSrc: "./images/maxime-gilbert-WZ31bFoqPHg-unsplash.png", name: "Maxime Gilbert" },
     { imgSrc: "./images/photo-is-beauty-to-u-m2y-eByFnvc-unsplash.png", name: "photo is beauty" },
     { imgSrc: "./images/philipp--hvC60Fen7I-unsplash.png", name: "Philipp" },
     { imgSrc: "./images/ryan-ancill-KNnj1-uUwow-unsplash.png", name: "Ryan Ancill" },
     { imgSrc: "./images/craig-manners-8qOh0vBS5B8-unsplash.png", name: "Craig Manners" },
-    { imgSrc: "./images/dario-bronnimann-Pk5Y0gkICDw-unsplash.png", name: "Dario Brönnimann" },
-    { imgSrc: "./images/dario-bronnimann-8fHbjlmMSDY-unsplash.png", name: "Dario Brönnimann" },
+    { imgSrc: "./images/dario-bronnimann-Pk5Y0gkICDw-unsplash.png", name: "Dario Brönnimann1" },
+    { imgSrc: "./images/dario-bronnimann-8fHbjlmMSDY-unsplash.png", name: "Dario Brönnimann2" },
     { imgSrc: "./images/pete-alexopoulos-DuhfNThAz2A-unsplash-2.png", name: "Pete Alexopoulos" },
     { imgSrc: "./images/maxime-gilbert-WZ31bFoqPHg-unsplash.png", name: "Maxime Gilbert" },
     { imgSrc: "./images/photo-is-beauty-to-u-m2y-eByFnvc-unsplash.png", name: "photo is beauty" },
